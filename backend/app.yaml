@@ -1,0 +1,8 @@
+runtime: nodejs14
+
+instance_class: F2
+
+env_variables:
+  NODE_ENV: production
+
+entrypoint: node server.js

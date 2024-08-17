@@ -1,0 +1,10 @@
+[[functions]]
+  directory = "functions"
+  # Add other function settings if you have them
+
+[context.production.environment]
+  GCLOUD_KEYFILE = "./keyfile.json"
+[context.branch-deploy.environment]
+  GCLOUD_KEYFILE = "./keyfile.json"
+[context.deploy-preview.environment]
+  GCLOUD_KEYFILE = "./keyfile.json"
